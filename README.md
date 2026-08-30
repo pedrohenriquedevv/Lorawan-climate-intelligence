@@ -26,4 +26,21 @@ The proposed approach reduces unnecessary sensor transmissions while improving r
 
 ---
 
-## Data Engineering Pipeline
+## Repository Structure
+
+```text
+docs/
+├── research-overview.md
+├── discretization-model.md
+└── findings.md
+
+data/
+├── sample_dataset.md
+
+results/
+├── major-findings.md
+
+src/
+├── etl
+├── discretization
+└── association_rules
